@@ -20,7 +20,7 @@ function App() {
     // eslint-disable-next-line
   }, [localStorage.theme]);
 
-  const [toggleBar, setToggleBar] = React.useState(true);
+  const [toggleBar, setToggleBar] = React.useState(false);
   const bodyClass = toggleBar ? "md:ml-[100px] lg:ml-[300px] xl:ml-[350px]" : ""
 
   return (
